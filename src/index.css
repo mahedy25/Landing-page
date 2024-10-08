@@ -5,3 +5,15 @@
 *{
   font-family: sans-serif;
 }
+
+body {
+  overflow-y: scroll; /* Ensure scrolling */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Edge */
+}
+
+html {
+  scrollbar-width: none; /* For Firefox */
+}
