@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <div >
 
-<div className='w-full flex fixed items-center  py-5 font-medium text-white bg-gray-800 '>
+<div className='w-full flex fixed items-center  py-5 font-medium text-white bg-gray-800 z-50'>
       <h1 onClick={() => scrollToSection('home')} className='flex px-3 font-bold cursor-pointer'>MAZE</h1>
       <div className='mx-auto'>
       <ul className='hidden  justify-center items-center text-center sm:flex gap-5  '>
